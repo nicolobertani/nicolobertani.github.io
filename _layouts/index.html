@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+  <div class="container" style="margin-top:30px">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="mr-3 bg-light p-3 border border-secondary-aslist rounded">
+          <div class="">
+            {% include aboutme.html %}
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-sm-8">
+        <div class="pt-3">
+          <h2> {{ site.whatdoIdo }}</h2>
+          <div class="text-justify">
+            {{ content }}
+          </div>
+          <br>
+
+        </div>
+      </div>
+    </div>
+  </div>

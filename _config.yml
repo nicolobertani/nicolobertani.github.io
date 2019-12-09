@@ -1,1 +1,14 @@
-theme: jekyll-theme-minimal
+title: "NB: personal website"
+whoamI: Nicol&ograve Bertani
+whatdoIdo: "Ph.D student in Decision Sciences at INSEAD"
+url: "https://nicolobertani.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+inseadwebsite: "https://www.insead.edu/phd/student-profiles/nicol-bertani"
+email: "nicolo.bertani[]insead[]edu"
+linkedin_username: nicolobertani
+github_username: nicolobertani
+
+plugins:
+  - jekyll-feed
+
+show_excerpts: TRUE

@@ -1,5 +1,31 @@
-<h4>Latest posts</h4>
-<h5>Title description, Sep 2, 2017</h5>
-<div class="fakeimg">Fake Image</div>
-<p>Some text..</p>
-<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+{%- if site.posts.size > 0 -%}
+<div style="margin-bottom:100px">
+  <!-- <a href="{{ page.list_title | default: "Posts" }}"> -->
+  <!-- <a href="{{ post.list.title | default: "Posts" }}"> -->
+    <h4 class="">{{ page.post_list_title | default: "Latest posts" }}</h4>
+  <!-- </a> -->
+  <ul class="">
+    {%- for post in site.posts -%}
+      {%- if post.type == "blogpost" -%}
+        {%- if post.include -%}
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="">{{ post.date | date: date_format }}</span>
+            <h5>
+              <a class="" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h5>
+          </li>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+
+  <!-- <p class="feed-subscribe">
+    <a href="{{ 'feed.xml' | relative_url }}">
+      <svg class="svg-icon orange"><use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg><span>Subscribe</span>
+    </a>
+  </p> -->
+</div>
+{%- endif -%}

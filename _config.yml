@@ -12,4 +12,8 @@ github_username: nicolobertani
 plugins:
   - jekyll-feed
 
+header_pages:
+  - research.md
+  - blog.md
+  
 show_excerpts: TRUE

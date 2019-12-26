@@ -1,5 +1,26 @@
-<h4>Latest research</h4>
-<div class="fakeimg">Fake Image</div>
-<p>Some text..</p>
-<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+{%- if site.posts.size > 0 -%}
+<div class="">
+  <!-- <a href="{{ page.list_title | default: "Posts" }}"> -->
+  <!-- <a href="{{ post.list.title | default: "Posts" }}"> -->
+    <h4>{{ page.research_list_title | default: "Latest research" }}</h4>
+  <!-- </a> -->
+  <ul class="">
+    {%- for post in site.posts -%}
+      {%- if post.type == "paper" -%}
+        {%- if post.include -%}
+          <li>
+            <p class="mb-0"><strong>
+              <a class="" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </strong></p>
+            <p class="">with </p>
+          </li>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </ul>
+</div>
+{%- endif -%}
+
 <br>

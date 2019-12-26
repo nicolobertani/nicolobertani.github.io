@@ -6,25 +6,24 @@
   <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
 
   <!-- from w3school -->
-  <div class="header_jumbotron text-center" style="margin-bottom:0;">
+  <!-- <div class="header_jumbotron text-center" style="margin-bottom:0;">
     <h1>{{ site.title }}</h1>
-    <!-- <h1> {{ site.title }} </h1> -->
-    <!-- <p>Potentially some subtitle</p> -->
-  </div>
+  </div> -->
 </header>
 
 <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" style="padding-top: 1px; padding-bottom: 1px">
   <div class="container">
     {%- if page.title == "Home" -%}
       <div class="pl-3">
+        <a class="navbar-brand" href="{{ site.url }}"> <strong>{{ site.title }} </strong></a>
     {% else %}
       <div class="">
+        <a class="navbar-brand" href="{{ site.url }}"> {{ site.title }} </a>
     {% endif %}
-      <a class="navbar-brand" href="{{ site.url }}"> Home </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <!-- from minima template -->
       <ul class="navbar-nav">

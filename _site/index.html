@@ -3,7 +3,7 @@
 
   <head>
   <!-- from Bootstrap template -->
-  <title>Home - NB: personal website</title>
+  <title>Home - nicolobertani.github.io</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link rel="stylesheet" href="/assets/css/main.css">
@@ -18,30 +18,35 @@
     background: #aaa;
   }
   </style>
+
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
 </head>
 
 
   <body><header>
-  <!-- from minima, to create navbar --><!-- <a class="site-title" rel="author" href="/">NB: personal website</a> -->
+  <!-- from minima, to create navbar --><!-- <a class="site-title" rel="author" href="/">nicolobertani.github.io</a> -->
 
   <!-- from w3school -->
-  <div class="header_jumbotron text-center" style="margin-bottom:0;">
-    <h1> NB: personal website</h1>
-    <!-- <p>Potentially some subtitle</p> -->
-  </div>
+  <!-- <div class="header_jumbotron text-center" style="margin-bottom:0;">
+    <h1>nicolobertani.github.io</h1>
+  </div> -->
 </header>
 
 <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" style="padding-top: 1px; padding-bottom: 1px">
   <div class="container"><div class="pl-3">
+        <a class="navbar-brand" href="http://localhost:4000"> <strong>nicolobertani.github.io </strong></a>
     
-      <a class="navbar-brand" href="http://localhost:4000"> Home </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <!-- from minima template -->
-      <ul class="navbar-nav"></ul>
+      <ul class="navbar-nav"><li class="nav-item"><a class="nav-link" href="/research/">Research</a></li><li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li></ul>
     </div>
   </div>
 </nav>
@@ -61,7 +66,7 @@
 
   <h5>Contacts:</h5>
   <div class="list-group">
-     <li class="list-group-item"><i class="fas fa-at mr-2"></i> nicolo.bertani[]insead[]edu </li>
+     <li class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="Copy and replace [] with sensible content."><i class="fas fa-at mr-2"></i> nicolo.bertani[]insead[]edu </li>
      <a href="https://github.com/nicolobertani" class="list-group-item list-group-item-action"><i class="fab fa-github mr-2"></i> nicolobertani</a>
      <a href="https://www.linkedin.com/in/nicolobertani" class="list-group-item list-group-item-action"><i class="fab fa-linkedin-in mr-2"></i> nicolobertani </a>
    </div>
@@ -76,14 +81,62 @@
         <div class="pt-3">
           <h2> Ph.D student in Decision Sciences at INSEAD</h2>
           <div class="text-justify">
-            <p>I am currently pursuing my Ph.D student in <a href="https://www.insead.edu/faculty-research/academic-areas/decision-sciences">Decision Sciences</a> at <a href="https://www.insead.edu/">INSEAD</a>, under the supervision of <a href="https://faculty.insead.edu/enrico-diecidue/home">Enrico Diecidue</a> and <a href="https://faculty.insead.edu/ville-satopaa/home">Ville Satopää</a>, with expected graduation in 2020-21.</p>
+            <p>I am currently pursuing my doctorate in <a href="https://www.insead.edu/faculty-research/academic-areas/decision-sciences">Decision Sciences</a> at <a href="https://www.insead.edu/">INSEAD</a>, under the supervision of <a href="https://faculty.insead.edu/enrico-diecidue/home">Enrico Diecidue</a> and <a href="https://faculty.insead.edu/ville-satopaa/home">Ville Satopää</a>, with expected graduation in 2020-21.</p>
 
-<p><em>The website is currently under construction. More to come in a few days.</em></p>
+<p>My research ….</p>
+
+<p><br /></p>
+
+<h4 id="on-this-website">On this website</h4>
+
+<p>On this website, you can find news and resources related to my <a href="/research">research</a>, as well as an array of generic <a href="/posts">blogposts</a> that, while often remaining related to my research, I hope can help you with your research or work. The latest additions to the site are listed below, for convenience.</p>
+
+<p>If you want to get in touch, do not hesitate to do so using the contact information in the left part of this page.</p>
 
           </div>
           <br>
 
-          
+          <div class="">
+  <!-- <a href="Posts"> -->
+  <!-- <a href="Posts"> -->
+    <h4>Latest research</h4>
+  <!-- </a> -->
+  <ul class=""><li>
+            <p class="mb-0"><strong>
+              <a class="" href="/2019/12/01/Elicit.html">
+                Fast and simple adaptive elicitations: experimental test for probability weighting
+              </a>
+            </strong></p>
+            <p class="">with </p>
+          </li></ul>
+</div><br>
+
+          <div style="margin-bottom:100px">
+  <!-- <a href="Posts"> -->
+  <!-- <a href="Posts"> -->
+    <h4 class="">Latest posts</h4>
+  <!-- </a> -->
+  <ul class=""><li><span class="">Dec 1, 2019</span>
+            <h5>
+              <a class="" href="/jekyll/update/2019/12/01/welcome-to-jekyll.html">
+                Welcome to Jekyll!
+              </a>
+            </h5>
+          </li><li><span class="">Oct 10, 2019</span>
+            <h5>
+              <a class="" href="/2019/10/10/academic-minima.html">
+                Website Theme: Academic Minima
+              </a>
+            </h5>
+          </li></ul>
+
+  <!-- <p class="feed-subscribe">
+    <a href="/feed.xml">
+      <svg class="svg-icon orange"><use xlink:href="/assets/minima-social-icons.svg#rss"></use></svg><span>Subscribe</span>
+    </a>
+  </p> -->
+</div>
+
         </div>
       </div>
     </div>
@@ -92,8 +145,9 @@
     </main><!-- JS -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
-<div class="footer_jumbotron text-center bg-light" style="margin-bottom:0" fixed-bottom>
-  <p><small>2019 - Website build by Nicol&ograve Bertani using <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://getbootstrap.com/">Bootstrap 4</a>.</small></p>
+<div class="footer_jumbotron text-center bg-light" style="position:absolute; bottom:0; width:100%; margin-bottom:0" >
+  <p class="mb-0"><small>2019 - Website build by Nicol&ograve Bertani using <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://getbootstrap.com/">Bootstrap 4</a>.</small></p>
+  <p class="mb-0"><small>Go back to the <a href="#top">top</a> or go to the <a href="http://localhost:4000">homepage</a>.</small></p>
 </div>
 </body>
 

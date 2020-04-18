@@ -14,7 +14,11 @@
                 {{ post.title | escape }}
               </a>
             </strong></p>
-            <p class="">with </p>
+            <p class=""> with:
+              {% for coauthor in post.coauthors %}
+                {{ coauthor }},
+              {% endfor %}
+            </p>
           </li>
         {%- endif -%}
       {%- endif -%}

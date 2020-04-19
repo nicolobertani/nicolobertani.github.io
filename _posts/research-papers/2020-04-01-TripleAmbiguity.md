@@ -6,8 +6,8 @@ ID: 2020TA
 include: FALSE
 status: "in progress"
 coauthors:
-  - "A. Festjens,"
-  - "E. Diecidue."
+  - "E. Diecidue,"
+  - "A. Festjens."
 draft-link:
 ---
 

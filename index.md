@@ -9,7 +9,7 @@ I work on individual decision making and forecasting, particularly with high-dim
 <!-- uses data and the study of individual decision making to understand and try to alleviate societal problems. -->
 <!-- My research encompasses both the decision and the data analysis facets that compose decision sciences. -->
 I value applications that can have societal upsides.
-I am currently working environmental decision making and urban crime forecasting.
+I am currently working on environmental decision making and urban crime forecasting.
 <!-- This work has required methodological developments, particularly in the domain of high dimensional modeling, and experimental methods. -->
 
 <br>

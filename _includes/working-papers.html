@@ -6,36 +6,38 @@
   <ul class="">
     {%- for post in site.posts -%}
       {%- if post.type == "paper" -%}
-        {%- if post.staus != "published" -%}
+        {%- if post.status != "published" -%}
           <li>
-            <p>
-              <div class="mb-0"><strong>
-                <span class="text-primary" id="{{ post.title | escape }}">
-                  {{ post.title | escape }}
-                </span>
-              </strong></div>
-              <div class=""> with:
-                {% for coauthor in post.coauthors %}
-                  <span>{{ coauthor }},</span>
-                {% endfor %}
-              </div>
-              <div>
-                <i>{{ post.status }}</i>.
-              </div>
-            </p>
-            <p>
-              <div class="">
-                <strong>Abstract:</strong>
-              </div>
-              <div class="">
-                {{ post.content }}
-              </div>
-            </p>
-            <p>
-              <div class="">
-                A draft of this paper is available <a href="{{post.draft-link}}">here</a>.
-              </div>
-            </p>
+            <div class="pb-2">
+              <p>
+                <div class="mb-0"><strong>
+                  <span class="text-primary" id="{{ post.title | escape }}">
+                    {{ post.title | escape }}
+                  </span>
+                </strong></div>
+                <div class=""> with:
+                  {% for coauthor in post.coauthors %}
+                    <span>{{ coauthor }},</span>
+                  {% endfor %}
+                </div>
+                <div>
+                  <i>{{ post.status }}</i>.
+                </div>
+              </p>
+              <p>
+                <div class="">
+                  <strong>Abstract:</strong>
+                </div>
+                <div class="">
+                  {{ post.content }}
+                </div>
+              </p>
+              <p>
+                <div class="">
+                  A draft of this paper is available <a href="{{post.draft-link}}">here</a>.
+                </div>
+              </p>
+            </div>
           </li>
         {%- endif -%}
       {%- endif -%}

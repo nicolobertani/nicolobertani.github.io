@@ -10,9 +10,9 @@
           <li>
             <p>
               <div class="mb-0"><strong>
-                <a class="text-primary" id="{{ post.title | escape }}">
+                <span class="text-primary" id="{{ post.title | escape }}">
                   {{ post.title | escape }}
-                </a>
+                </span>
               </strong></div>
               <div class=""> with:
                 {% for coauthor in post.coauthors %}
@@ -22,7 +22,6 @@
               <div>
                 <i>{{ post.status }}</i>.
               </div>
-
             </p>
             <p>
               <div class="">

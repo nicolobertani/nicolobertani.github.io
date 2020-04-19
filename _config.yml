@@ -15,5 +15,6 @@ plugins:
 header_pages:
   - research.md
   - blog.md
+  - vita.md
   
 show_excerpts: TRUE

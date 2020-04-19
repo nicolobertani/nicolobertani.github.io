@@ -7,7 +7,8 @@ include: FALSE
 status: "in progress"
 coauthors:
   - "S. Jensen,"
-  - "V. Satopää."
+  - "V. Satopää,"
+  - "R. Thurston."
 draft-link:
 ---
 

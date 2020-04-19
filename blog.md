@@ -4,4 +4,4 @@ title: "Blog"
 permalink: blog/
 ---
 
-Here is where my blog goes.
+For now, this is a placeholder. I plan to start posting soon.

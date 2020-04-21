@@ -4,3 +4,4 @@ _drafts/
 .RData
 _site/
 .sass-cache/
+.jekyll-cache/

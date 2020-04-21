@@ -16,5 +16,9 @@ header_pages:
   - research.md
   - blog.md
   - vita.md
-  
+
 show_excerpts: TRUE
+
+# Build settings
+markdown: kramdown
+exclude: ['*.Rmd']

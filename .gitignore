@@ -1,1 +1,6 @@
 _drafts/
+.Rproj.user
+.Rhistory
+.RData
+_site/
+.sass-cache/

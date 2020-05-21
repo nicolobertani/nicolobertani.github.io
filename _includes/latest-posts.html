@@ -1,5 +1,5 @@
 {%- if site.posts.size > 0 -%}
-  <div style="margin-bottom:100px">
+  <div style="margin-bottom:50px">
     <!-- <a href="{{ page.list_title | default: "Posts" }}"> -->
     <!-- <a href="{{ post.list.title | default: "Posts" }}"> -->
       <h4 class="">{{ page.post_list_title | default: "Latest posts" }}</h4>
@@ -10,12 +10,16 @@
           {%- if post.include -%}
             <li>
               {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              <span class="">{{ post.date | date: date_format }}</span>
-              <h5>
+              <p>
+                <div class="">
+                  {{ post.date | date: date_format }}
+                </div>
+                <div class="">
+                </div>
                 <a class="" href="{{ post.url | relative_url }}">
                   {{ post.title | escape }}
                 </a>
-              </h5>
+              </p>
             </li>
           {%- endif -%}
         {%- endif -%}

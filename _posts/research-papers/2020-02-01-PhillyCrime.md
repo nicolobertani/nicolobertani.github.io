@@ -1,5 +1,4 @@
 ---
-layout: research
 type: paper
 title: "Urban Planning of Safer Cities based on Hierarchical Spatio-Temporal Forecasting of Crime"
 ID: 2020PC

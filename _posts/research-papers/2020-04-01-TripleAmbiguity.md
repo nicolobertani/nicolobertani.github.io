@@ -1,5 +1,4 @@
 ---
-layout: research
 type: paper
 title: "Ambiguity and Accountability in Environmental Choices"
 ID: 2020TA

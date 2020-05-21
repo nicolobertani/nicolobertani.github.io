@@ -5,3 +5,4 @@ _drafts/
 _site/
 .sass-cache/
 .jekyll-cache/
+*Rmd

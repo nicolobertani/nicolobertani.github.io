@@ -1,7 +1,7 @@
 <!-- JS -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
-{%- if page.title == "Research" -%}
+{%- if page.title == "Research" or page.title == "Home" or page.type == "blog.blogpost" -%}
   <div class="footer_jumbotron text-center bg-light" style="margin-bottom:0" >
 {%- else -%}
   <div class="footer_jumbotron text-center bg-light" style="position:fixed; bottom:0; width:100%; margin-bottom:0" >

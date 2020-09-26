@@ -3,7 +3,8 @@ type: paper
 title: "Ambiguity and Accountability in Environmental Choices"
 ID: 2020TA
 include: FALSE
-status: "in progress"
+bin: "in progress"
+status: "In progress"
 coauthors:
   - "E. Diecidue,"
   - "A. Festjens."

@@ -5,4 +5,4 @@ permalink: vita/
 ---
 
 You can find the latest version [here](/assets/vita.pdf).
-Last updated on April 19, 2020.
+Last updated on September 26, 2020.

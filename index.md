@@ -17,7 +17,7 @@ I am currently working on environmental decision making and urban crime forecast
 #### On this website
 
 On this website, you can find news and resources related to my [research](/research), in line with the principles of open research, which I fully support.
-I will also try to cultivate a more generic [blog](/blog).
+I will also try to cultivate a more generic blog.
 The latest additions to the website are listed below, for convenience.
 
 <br>

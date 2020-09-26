@@ -6,7 +6,7 @@
   <ul class="">
     {%- for post in site.posts -%}
       {%- if post.type == "paper" -%}
-        {%- if post.status == "in progress" -%}
+        {%- if post.bin == "in progress" -%}
           <li>
             <div class="pb-2">
               <p>

@@ -17,8 +17,9 @@ I am currently working on environmental decision making and urban crime forecast
 #### On this website
 
 On this website, you can find news and resources related to my [research](/research), in line with the principles of open research, which I fully support.
-I try to make the code I develop available on my [GitHub page](https://github.com/{{ site.github_username | escape }}).
-I will also try to cultivate a more generic blog.
+Someday, I will cultivate a more generic blog.
+Meanwhile, I have made available some high performance implementations of Bayesian Machine Learning techniques (Bayesian variable selection via Spike-and-Slab, Gaussian Processes) on my [GitHub page](https://github.com/{{ site.github_username | escape }}).
+The software is written in C++ and is meant for use in R via Rcpp and RcppArmadillo.
 The latest additions to the website are listed below, for convenience.
 
 <br>

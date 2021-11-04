@@ -3,6 +3,14 @@ layout: index
 title: "Home"
 ---
 
+**THIS WEBSITE IS OBSOLETE. I AM CURRENTLY WORKING ON A COMPLETELY NEW VERSION USING HUGO, RMARKDOWN, AND ALL THE GOOD STUFF. HOPE TO HAVE IT UP SOON.**
+
+**MY GITHUB PROFILE IS ALWAYS UP TO DATE.**
+
+**MY UPDATED VITA IS AVAILABLE [HERE](https://www.clsbe.lisboa.ucp.pt/person/nicolo-bertani?parent-page=247).**
+
+
+
 I am currently pursuing my doctorate in [Decision Sciences](https://www.insead.edu/faculty-research/academic-areas/decision-sciences) at [INSEAD](https://www.insead.edu/), under the supervision of [Enrico Diecidue](https://faculty.insead.edu/enrico-diecidue/home) and [Ville Satopää](https://faculty.insead.edu/ville-satopaa/home), with expected graduation in 2020-21.
 
 I work on individual decision making and forecasting, particularly with high-dimensional (probability) models.

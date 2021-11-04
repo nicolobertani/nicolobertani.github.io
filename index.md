@@ -7,7 +7,7 @@ title: "Home"
 
 **MY GITHUB PROFILE IS ALWAYS UP TO DATE.**
 
-**MY UPDATED VITA IS AVAILABLE [HERE](https://www.clsbe.lisboa.ucp.pt/person/nicolo-bertani?parent-page=247).**
+<!-- **MY UPDATED VITA IS AVAILABLE [HERE](https://www.clsbe.lisboa.ucp.pt/person/nicolo-bertani?parent-page=247).** -->
 
 
 
